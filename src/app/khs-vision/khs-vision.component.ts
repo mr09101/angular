@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../../assets/css/form.css']
 })
 export class KhsVisionComponent implements OnInit {
-
+  test
   companyVision: string;
   name3: string;
   name4: string;
