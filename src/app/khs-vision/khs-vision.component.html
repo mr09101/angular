@@ -1,0 +1,53 @@
+<h1>
+  <p>
+      company-vision : {{companyVision}}!!
+       
+  </p>
+</h1>
+ 
+ <div class="divcenter">
+<form>
+      <h3>Input Data</h3>
+   
+      <div>
+            <label for="vision1">Vision :</label>
+            <input name="vision1" #vision1>
+        </div>
+      <div>
+            <label for="name1">Name :</label>
+            <input name="name1" #name1>
+        </div>
+      <div>
+            <label for="email1">e-mail :</label>
+            <input name="email1" #email1>
+        </div>
+   
+      <button (click)="addArticle1(vision1, name1, email1.value)">
+        Submit 
+        </button>
+   
+</form>
+Input Data :  {{name3}} / {{email3}}
+</div>
+ 
+<div class="divcenter">
+   <h3>Input Data2</h3>
+   
+  <div class="example-container">
+        <mat-form-field>
+              <input matInput #vision2 placeholder="Vision">
+          </mat-form-field>
+        <mat-form-field>
+              <input matInput #name2 placeholder="Name">
+          </mat-form-field>
+        <mat-form-field>
+              <input matInput #email2 placeholder="e-mail">
+          </mat-form-field>
+        <div class="example-button-row">
+              <button mat-raised-button color="primary"
+                (click)="addArticle2(vision2, name2, email2.value)">Submit</button>
+          </div>
+  </div>
+  Input Data :  {{name4}} / {{email4}}
+</div>
+ 

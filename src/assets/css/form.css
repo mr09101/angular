@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #CCC;
+    background-color: #cccccc;
+}
+
+form div + div{
+    margin-top: 5px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input, textarea{
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+textarea{
+    vertical-align: top;
+    height: 100px;
+}
+
+button{
+    margin-left: 10em;
+}
+
+.example-container>*{
+    width: 100%;
+}
+
+.example-button-row botton,
+.example-button-row a{
+    margin-right: 8px;
+}
+
+.divcenter{
+    margin: 0 auto;
+    width: 500px;
+}
